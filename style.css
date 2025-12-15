@@ -90,10 +90,21 @@ section {
   width: 100%;
 }
 
-#rampsion img {
-  max-height: 50vh;
-  display: block;
-  margin: 0 auto;
+#rampsion .rampsion-container {
+  display: flex;
+  gap: 1.25rem;
+}
+
+#rampsion .rampsion-item {
+  width: 50%;
+}
+
+#rampsion .rampsion-item p {
+  font-size: 1.25rem;
+}
+
+#rampsion .rampsion-item img {
+  width: 100%;
 }
 
 h1 {
