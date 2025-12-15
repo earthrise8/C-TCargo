@@ -85,12 +85,6 @@ h2 {
   gap: 1.25rem;
 }
 
-.grid-2 {
-  display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 1.25rem;
-}
-
 .price {
   font-size: 2.25rem;
   font-weight: 700;
@@ -102,8 +96,16 @@ h2 {
   padding: 1.25rem;
 }
 
-#pricing .bordered {
+#pricing .pricing-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.25rem;
+}
+
+#pricing .pricing-item {
   text-align: center;
+  width: calc(33.333% - 1.25rem);
 }
 
 #pricing .icon {
