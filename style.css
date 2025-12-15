@@ -83,8 +83,14 @@ section {
 }
 
 #services .service-item {
-  width: 70%;
+  width: 50%;
 }
+
+#services .service-item p {
+  font-size:1.25rem;
+  
+}
+
 
 #services .service-item img {
   width: 100%;
