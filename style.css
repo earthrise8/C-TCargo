@@ -88,12 +88,12 @@ section {
 
 #services .service-item p {
   font-size:1.25rem;
-  
+
 }
 
 
 #services .service-item img {
-  width: 100%;
+  width: 50%;
 }
 
 #rampsion .rampsion-container {
@@ -110,7 +110,7 @@ section {
 }
 
 #rampsion .rampsion-item img {
-  width: 100%;
+  width: 50%;
 }
 
 h1 {
