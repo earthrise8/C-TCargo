@@ -3,8 +3,20 @@
 <head>
   <title>Space Shipping Company - Pricing</title>
   <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono&display=swap" rel="stylesheet">
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            'sans': ['Space Mono', 'sans-serif'],
+          }
+        }
+      }
+    }
+  </script>
 </head>
-<body class="bg-black text-white font-sans">
+<body class="bg-white text-black font-sans">
   <header class="flex justify-end">
     <nav>
       <ul class="flex">
@@ -19,17 +31,17 @@
   <main class="p-5">
     <h1 class="text-3xl font-bold mb-5">Pricing</h1>
     <div class="grid grid-cols-3 gap-5">
-      <div class="border border-white p-5">
+      <div class="border border-black p-5">
         <h2 class="text-2xl font-bold mb-3">Basic</h2>
         <p class="text-4xl font-bold mb-3">$1M</p>
         <p>Ship up to 1 ton of cargo to low Earth orbit.</p>
       </div>
-      <div class="border border-white p-5">
+      <div class="border border-black p-5">
         <h2 class="text-2xl font-bold mb-3">Standard</h2>
         <p class="text-4xl font-bold mb-3">$5M</p>
         <p>Ship up to 5 tons of cargo to the Moon.</p>
       </div>
-      <div class="border border-white p-5">
+      <div class="border border-black p-5">
         <h2 class="text-2xl font-bold mb-3">Premium</h2>
         <p class="text-4xl font-bold mb-3">$20M</p>
         <p>Ship up to 10 tons of cargo to Mars.</p>
