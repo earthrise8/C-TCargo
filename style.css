@@ -77,40 +77,22 @@ section {
   object-fit: cover;
 }
 
-#services .services-container {
+.services-container {
   display: flex;
   gap: 1.25rem;
 }
 
-#services .service-item {
+.service-item {
   width: 50%;
 }
 
-#services .service-item p {
+.service-item p {
   font-size:1.25rem;
 
 }
 
-
-#services .service-item img {
+.service-item img {
   width: 50%;
-}
-
-#rampsion .rampsion-container {
-  display: flex;
-  gap: 1.25rem;
-}
-
-#rampsion .rampsion-item {
-  width: 50%;
-}
-
-#rampsion .rampsion-item p {
-  font-size: 1.25rem;
-}
-
-#rampsion .rampsion-item img {
-  width: 70%;
 }
 
 h1 {
